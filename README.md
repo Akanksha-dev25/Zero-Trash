@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Hackthisfall virtual 
+# ZERO-TRASH (AI POWERED WASTE MANAGEMENT PLATFORM)
 
-## Getting Started
+![alt text](image.png)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## The Problem it solves
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Zero-Trash is designed to make waste management more efficient and rewarding. It allows users to report and collect waste, contributing to a cleaner environment. The platform incentivizes users by offering rewards for their contributions, making waste management a community-driven effort. By using AI, it helps in identifying waste types and estimating quantities, thus streamlining the process of waste collection and recycling.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## AI powered verification of waste via Gemini Api
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![alt text](image-1.png)
 
-## Learn More
+## Earn Rewards for collecting wastes 
+![alt text](image-2.png)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Challenges I ran into
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+One of the challenges faced during the development of Zero-Trash was integrating AI for waste verification. The AI needed to accurately identify waste types and estimate quantities from images. This required fine-tuning the Gemini AI model and handling various edge cases where the AI might misinterpret the data. Another challenge was ensuring seamless user authentication and data management, which was addressed by integrating Web3Auth for secure login and using a robust database setup for handling user data and rewards.
 
-## Deploy on Vercel
+## Technologies I used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ReactJS
+- Drizzle ORM
+- NextJs
+- Typescript
+- Web3Auth for Authentication
+- GEMINI API
+- Tailwind css and ShadCN
